@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "469926026569",
+    "project_id": "learn-firebase-b4573",
+    "storage_bucket": "learn-firebase-b4573.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469926026569:android:f1292b6dcc40b2935f0e98",
+        "android_client_info": {
+          "package_name": "com.arnav.quizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469926026569-pcq822qge4153cta1t1vv3o8amgijehg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arnav.quizapp",
+            "certificate_hash": "31f8909e2975648a592f34f0067eeca2d99d516d"
+          }
+        },
+        {
+          "client_id": "469926026569-p1caqof6jnl40dr28rjf79gg3fuo1mp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt9aC63FcrTmEFsQ9scjGh4LTP-VdoBEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469926026569-p1caqof6jnl40dr28rjf79gg3fuo1mp2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
