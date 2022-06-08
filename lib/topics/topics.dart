@@ -12,6 +12,13 @@ class TopicsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       bottomNavigationBar: BottomNavBar(),
+      
+      body: Center(
+        child: ElevatedButton(
+          child: Text('about'),
+          onPressed: () => Navigator.pushNamed(context, '/about'),
+        ),
+      ),
     );
   }
 }

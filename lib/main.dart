@@ -7,7 +7,11 @@ import 'package:quizapp/themes.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(App());
+  runApp(
+    MaterialApp(
+      home: App(),
+    ),
+  );
 }
 
 /// We are using a StatefulWidget such that we only create the [Future] once,
@@ -43,10 +47,9 @@ class _AppState extends State<App> {
             routes: appRoutes,
             theme: appTheme,
           );
+        } else {
+          return Text('loading');
         }
-
-        // Otherwise, show something whilst waiting for initialization to complete
-        return Text('loading');
       },
     );
   }
